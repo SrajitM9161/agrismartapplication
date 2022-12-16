@@ -5,8 +5,8 @@
    text-transform: uppercase;
   background-image: linear-gradient(
     -225deg,
-    #15571dac 0%,
-    #bde775 29%,
+    #42b24fac 0%,
+    #81ac36 29%,
     #ff1361 67%,
     #fff800 100%
   );
@@ -60,7 +60,7 @@ font-family: sans-serif;
 font-weight: 900;
 font-style: italic;
 margin-left: 20px;
-color: whitesmoke;
+color: black;
 
 }
 
@@ -80,9 +80,9 @@ background-size: 100%;
   background-color: #04AA6D;
   border: none;
   border-radius: 15px;
- margin-left: 43%;
+ margin-left: 40%;
  margin-top: 22%;
- width: 200px;
+ width: 150px;
 }
 .button:hover {background-color: #3e8e41}
 
@@ -96,3 +96,23 @@ h3 {
   text-shadow: 0 0 8px #00ff40;
   color: #fff;
 } 
+.button2 {
+  
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #04AA6D;
+  border: none;
+  border-radius: 15px;
+  width: 150px;
+
+}
+.button2:hover {background-color: #3e8e41}
+
+.button2:active {
+  background-color: #3e8e41;
+  box-shadow:0 0 8px #00ff40;
+  transform: translateY(4px);
+}
