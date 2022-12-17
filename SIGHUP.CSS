@@ -3,6 +3,7 @@ body {
   background-repeat: no-repeat;
   background-size: 100%;
 }
+
 .button3 {
 
   font-size: 20px;
@@ -13,8 +14,9 @@ body {
   background-color: #04AA6D;
   border: none;
   border-radius: 15px;
-  margin-left: 40%;
-  /* margin-top: 22%; */
+  margin-left: 48%;
+  margin-top: 10px;
+
   width: 150px;
 }
 
@@ -30,78 +32,104 @@ body {
 
 .name {
 
-    text-transform: uppercase;
-    background-image: linear-gradient(-225deg,
-        #42b24fac 0%,
-        #81ac36 29%,
-        #ff1361 67%,
-        #fff800 100%);
-    background-size: auto auto;
-    background-clip: border-box;
-    background-size: 200% auto;
-    color: #fff;
-    background-clip: text;
-    border-inline-color: transparent;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    animation: textclip 2s linear infinite;
-    display: inline-block;
-    font-size: 50px;
-    margin-left: 550px;
-    padding-bottom: 50px;
-  
-  }
-  
-  @keyframes textclip {
-    to {
-      background-position: 200% center;
-  
-    }
-  
+  text-transform: uppercase;
+  background-image: linear-gradient(-225deg,
+      #42b24fac 0%,
+      #81ac36 29%,
+      #ff1361 67%,
+      #fff800 100%);
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  border-inline-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+  font-size: 50px;
+  margin-left: 600px;
+  padding-bottom: 50px;
+
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+
   }
 
-.m1{
-  margin-left: 350px;
+}
+
+.m1 {
+  margin-left: 450px;
   box-shadow: 8px 8px 100px 0 #ff1493, -5px -5px 5px #f7a325, 5px 5px 15px 0 #ff0;
   border-radius: 15px;
   background-color: rgba(255, 0, 204, 0.155);
   width: 650px;
-  height: 300px;
-  
+  height: 400px;
+
 }
-label{
+
+label {
   font-family: sans-serif;
   font-size: x-large;
   padding: 5px;
-  
+
 }
 
-input{
+input {
   border-radius: 50px;
 
 }
-#country{
-  width: 200px; 
+
+#country {
+  width: 200px;
   border-radius: 15px;
-  margin: 8px;
- 
+   margin: 20px; 
+   margin-top: 30px; 
+} 
+
+
+#phone {
+  width: 40px;
+  margin: 5px;
+  margin-top: 50px;
 }
-#country-state{
- 
-  margin-left: 150px;
-}
-#phone{
-  width: 80px;
-}
-#fname{
+
+#fname {
   margin-bottom: 30px;
 }
-#femail{
-  margin-bottom: 30px;
-}
-/* #fpassword{
-  margin-left: 60px;
-} */
-.box2b{
+
+.box2b {
   width: 120px;
 }
+
+#femail{
+  margin: 30px;
+  margin-top: 30px;
+  width: 170px;
+  
+}
+#Address{
+  margin-top: 50px;
+  width: 180px;
+}
+#State{
+  margin: 25px;
+  width: 165px;
+
+}
+
+footer{
+  background-color: rgb(237, 237, 237);
+
+}
+.col{
+  margin-left: 700px;
+}
+
+
+
+
